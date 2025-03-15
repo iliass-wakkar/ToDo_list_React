@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Iansui&family=Noto+Sans+KR:wght@100..900&family=Pacifico&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+
+@theme {
+    --font-sour-gummy:'Sour Gummy', 'sans-serif'
+  }
