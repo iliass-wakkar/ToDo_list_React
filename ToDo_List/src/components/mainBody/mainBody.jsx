@@ -4,7 +4,7 @@ import TasksHead from "../tasksHead/tasksHead";
 import TaskForm from "../taskForm/TaskForm";
 import DeleteForm from "../deleteForm/DeleteForm";
 import Notif from '../Notification/Notif';
-const initData = JSON.parse(localStorage.getItem("tasksData"));
+const initData = JSON.parse(localStorage.getItem("tasksData")) ?? [];
 export default function MainBody() {
     const [currentStatus, setCurrentStatus] = useState("All");
     const [formStatus, setFormStatus] = useState(
